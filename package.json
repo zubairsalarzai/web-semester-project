@@ -1,0 +1,31 @@
+{
+  "name": "confusion",
+  "version": "1.0.0",
+  "description": "This is a website for Ristorante Con Fusion",
+  "main": "index.html",
+  
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "start":"nodemon server1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.4",
+    "popper.js": "^1.12.9",
+    "sqlite3": "^5.0.0"
+  }
+}
